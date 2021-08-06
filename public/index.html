@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <script type="text/javascript" src="https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=6mzN9M9Pt-4jETN2Um327fy66wxSpCDUMne2j8VPlc31G2N914KvudgzbCcSM78g" charset="UTF-8"></script>
+    <script src="https://kit.fontawesome.com/d649a3f878.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="main.js">
+    <link rel="stylesheet" href="mobile-view.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"/>
+    <link rel="shortcut icon" type="image/png" href="Images/favicon.png"/>
+    <title>Yosef agil-Portfolio</title>
+</head>
+
+<body>
+
+    <!--Firebase SDK-->
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+        https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-analytics.js"></script>
+
+    <script>
+      // Your web app's Firebase configuration
+      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+      var firebaseConfig = {
+        apiKey: "AIzaSyBjwzx30M910XjYOVwn5HQCw05WZaP_gyQ",
+        authDomain: "yosef-uiux.firebaseapp.com",
+        projectId: "yosef-uiux",
+        storageBucket: "yosef-uiux.appspot.com",
+        messagingSenderId: "469210164937",
+        appId: "1:469210164937:web:b436fd0a954aaff27ba718",
+        measurementId: "G-77VE8BNSB2"
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+      firebase.analytics();
+    </script>
+
+
+
+    <!--Header-->
+    <div class="wrapper">
+      <header class="container-lg">
+        <!--Navbar-->
+          <nav class="navbar navbar-expand-lg">
+            <a class="navbar-brand" href="index.html">
+              Yosef Agil</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <i class="fas fa-align-right text-light"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a href="https://www.instagram.com/yosef.agil/?hl=en"><i class="fab fa-instagram fa-lg"></i></a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="https://www.behance.net/yosefagil8"><i class="fab fa-behance fa-lg"></i></a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="linkedin.com/in/yosef-agil-16b7361b6"><i class="fab fa-linkedin-in fa-lg"></i></a>
+                  </li>
+                  <li class="nav-item">
+                    <div class="line"></div>
+                  </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/Images/CV.pdf" download>Resume</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Blog</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+      </div>
+      </header>
+    </div>
+
+
+    <main>
+      <section class="section-0">
+        <div class="container">      
+            <!--Hero Section-->
+            <div class="hero">
+              <div class="row">                    
+                  <div class="col-md-7">
+                      <h1>Hi I’m Yosef
+                          <span style="background: -webkit-linear-gradient(180deg, #582FFF, #FF00D6);
+                                      -webkit-background-clip: text;
+                                      -webkit-text-fill-color: transparent;
+                          ">
+                          Freelance UI/UX Designer</span>
+                          From Indonesia
+                      </h1>
+                      <p>
+                          I've been helping over 50+ startup and medium to small 
+                          enterprise to support their website interface, and mobile apps interface.
+                      </p>
+                      <a href="https://linktr.ee/YosefAgil">
+                      <button class="btn btn-light px-5 py-2">Hire Me</button>
+                      </a>
+                      <a href="#">
+                        <button class="btn2 btn-light px-5 py-2">Let's Talk</button>
+                      </a>
+                  </div>
+                  <div class="col-md-5">
+                      <img src="/Images/3d.png" alt="">
+                  </div>
+              </div>
+          </div>
+        </div>
+      </section>
+
+      <!--About Section-->
+      <section class="section-1">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-5">
+              <img src="/Images/about.png" alt="">
+            </div>
+            <div class="col-md-6">
+              <h3>About Me <hr size="5" width="10%"></h3>
+              <p>Hello! I am Yosef from Indonesia, to be precise, in Salatiga, Central Java. 
+                I am a student at Satya Wacana Christian University, and I am interested in 
+                UI UX Web and Mobile design and Website programming. I like learning new things. 
+                I really happy to help you to build professional web or mobile design for your business!
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <!--Skill Section-->
+      <section class="section-2">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <h3>My Skillset <hr size="5" width="10%"></h3>
+              <div class="list-skill">
+                <h5>Figma</h5>
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <h5>HTML</h5>
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <h5>CSS</h5>
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <h5>3D Design (Blender)</h5>
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" style="width: 40%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <h5>Webflow</h5>
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" style="width: 30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <h5>React.Js</h5>
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-5">
+              <img src="/Images/Saly-10.png" alt="">
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--Gallery Section-->
+      <section class="section-3">
+        <div class="container">
+          <div class="row">
+            <h3 class="judul">UI UX Gallery</h3>
+          </div>
+
+          <!--Image & content-->
+          <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card h-100">
+                <img src="/Images/img1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Landing Page Online Course</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Risus sagittis gravida aliquet egestas nunc.</p>
+                  <a href="#" class="project">See the project</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="/Images/img2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Landing Page Marketing</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Risus sagittis gravida aliquet egestas nunc.</p>
+                  <a href="#" class="project">See the project</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="Images/img3.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Website kurirku</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Risus sagittis gravida aliquet egestas nunc.  </p>
+                  <a href="#" class="project">See the project</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card h-100">
+                <img src="/Images/img4.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Dashboard Online Course</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Risus sagittis gravida aliquet egestas nunc.</p>
+                  <a href="#" class="project">See the project</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="/Images/img5.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Dashboard Money Management</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Risus sagittis gravida aliquet egestas nunc.</p>
+                  <a href="#" class="project">See the project</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="Images/img6.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Landing page Kolactive</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Risus sagittis gravida aliquet egestas nunc.  </p>
+                  <a href="#" class="project">See the project</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--Counter Scroll-->
+      <section class="section-4">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <h3>66+
+                <br/><span>Positive Reviews</span>
+              </h3>
+            </div>
+            <div class="col-md-4">
+              <h3>80+
+                <br/><span>Happy Client</span>
+              </h3>
+            </div>
+            <div class="col-md-4">
+              <h3>90+
+                <br/><span>Complete Order</span>
+              </h3>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--Reviews Section-->
+      <section class="section-5">
+        <div class="container-fluid px-lg-4 px-md-4">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="testimonials">
+                <div class="desc">
+                  <h3 class="judul">What They Says</h3>
+                </div>
+                <div id="carousel1" class="owl-carousel">
+
+                  <!--Testimonial Card-->
+                  <div class="item">
+                    <div class="card text-center">
+                      <img src="Images/p1.jpg" alt="" class="card-img-top">
+                      <div class="card-body">
+                        <h5>Jamilsannie<br/> <span>Buyer From Fiverr</span></h5>
+                        <p class="card-text">
+                          "Yosef has quickly become my go to guy for website U/I design. 
+                          5 jobs in and I'm still impressed with the quality of speed of his work"
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div class="card text-center">
+                      <img src="Images/p2.jpg" alt="" class="card-img-top">
+                      <div class="card-body">
+                        <h5>michaelcrumpton<br/> <span>Client From Fiverr</span></h5>
+                        <p class="card-text">
+                          "Really happy with the final design, it only needed minimal changes 
+                          to make it perfect and these were done quickly. Thank you very much."
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div class="card text-center">
+                      <img src="Images/p3.jpg" alt="" class="card-img-top">
+                      <div class="card-body">
+                        <h5>tqwhite5<br/> <span>Client From Fiverr</span></h5>
+                        <p class="card-text">
+                          "I will 100% be coming back to Yosef for another project in the near future, and in the distant future. 
+                          He offers great prices, fantastic work, and was great at communicating throughout the process."
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div class="card text-center">
+                      <img src="Images/p4.jpg" alt="" class="card-img-top">
+                      <div class="card-body">
+                        <h5>Conor McGowan<br/> <span>Client From Upwork</span></h5>
+                        <p class="card-text">
+                          "osef did a very nice job for us designing pages for us using Figma. He was very 
+                          efficient and everything turned out great. We plan to work with him again in the near future."
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div class="card text-center">
+                      <img src="Images/p5.jpg" alt="" class="card-img-top">
+                      <div class="card-body">
+                        <h5>ankushmalhotra<br/> <span>Client From Fiverr</span></h5>
+                        <p class="card-text">
+                          "Clear communications and designs are of great quality. The designer and both times followed the 
+                          same process which worked quite efficient. The given requirements were implemented as expected"
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div class="card text-center">
+                      <img src="Images/p6.jpg" alt="" class="card-img-top">
+                      <div class="card-body">
+                        <h5>sourcefba<br/> <span>Client From Fiverr</span></h5>
+                        <p class="card-text">
+                          "Yousef is dedicated and a great designer. He went through many revisions with me until I was satisfied. 
+                          Absolutely will go with yousef for all my future design needs."
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--Contact-->
+      <section class="section-6">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <h3>Available To Work!</h3>
+              <p>My working hours 
+                7 am - 09 pm (GTM + 7: 00), Monday - Saturday
+                <br/>really happy for any offers!
+              </p>
+              <a href="#">
+                <button class="btn btn-light px-5 py-2">Upwork</button>
+              </a>
+              <a href="#">
+                <button class="btn btn-light px-5 py-2">Fiverr</button>
+              </a>
+              <a href="#">
+                <button class="btn btn-light px-5 py-2">WhatsApp</button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--Footer-->
+      <footer class="foot">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <hr size="5" width="100%">
+            </div>
+            <div class="col-md-6">
+              <img src="/Images/brand.png" alt="">
+            </div>
+            <div class="col-md-6">
+              <p>© 2021 copyright by yosef agil</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+    </main>
+
+    <!--JQuery OwlCoursel-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel12/2.3.4/owl.carousel.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js" 
+    integrity="sha512-gY25nC63ddE0LcLPhxUJGFxa2GoIyA5FLym4UJqHDEMHjp8RET6Zn/SHo1sltt3WuVtqfyxECP38/daUc/WVEA==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!--Script-->
+    <script type="text/javascript">
+      var $owl = $('#carousel1');
+      $owl.children().each(function (index){
+        $(this).attr('data-position', index);
+      });
+
+      $("#carousel1").owlCarousel({
+        loop: false,
+        center: true,
+        margin: 0,
+        responsiveClass: true,
+        nav: false,
+        responsive:{
+          0:{
+            items: 1
+          },
+          680:{
+            items: 2
+          },
+          1000:{
+            items: 3
+          }
+        }
+      });
+
+      $(document).on('click','.owl-item>div', function(){
+        var $speed = 1000;
+        $owl.trigger('to.owl.carousel', [$(this).data('position'), $speed]);
+      });
+    </script>
+
+    <!-- Java Script From Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" 
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" 
+      integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+</body>
+
+</html>
